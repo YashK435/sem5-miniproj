@@ -20,9 +20,9 @@
               <h1><a href="home.html">Prodash</a></h1>
           </div>
           <div class="hbtn-div">
-              <button class="navbar-btn"><a href="weather.html">weather</a></button>
-              <button class="navbar-btn" ><a href="todo.html">To-Do</a></button>
-              <button class="navbar-btn" ><a href="Notes.html">Notes</a></button>
+              <button class="navbar-btn" onclick="visit1()">weather</button>
+              <button class="navbar-btn" onclick="visit2()">To-Do</button>
+              <button class="navbar-btn" onclick="visit3()">Notes</button>
               <button class="navbar-btn" >User</button>
           </div>
       </header>
@@ -94,5 +94,16 @@
         <canvas></canvas>
       </section>
     </div>
+    <script>
+      function visit1() {
+          window.open("weather.html", "_self");
+        }
+        function visit2() {
+          window.open("todo.html", "_self");
+        }
+        function visit3() {
+          window.open("notes.html", "_self");
+        }
+  </script>
   </body>
 </html>

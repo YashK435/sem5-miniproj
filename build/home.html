@@ -29,15 +29,17 @@
 
     <div class="headerPage" style="background-image: url('./img/home-bg.jpg');">
 
-        <div class="nav">
+        <div class="nav" >
             <header>
                 <div class="heading-container">
                     <img src="./img/prodash-logo.png" width="80vw" height="80vh" />
                     <h1><a href="#">Prodash</a></h1>
                 </div>
                 <div class="hbtn-div">
-                    <button class="navbar-btn" onclick="visit1()"><a href="https://github.com/SAKATA-GINTOKI2003/sem5-miniproj">GitHub</a></button>
+                    <button class="navbar-btn" onclick="visit6()">Subscribe</button>
+                    <button class="navbar-btn" onclick="visit1()">GitHub</button>
                     <button class="navbar-btn" >User</button>
+                    
                 </div>
             </header>
         </div>
@@ -51,7 +53,7 @@
             <div class="box-txt"> - Express your creativity with a versatile drawing canvas. Sketch, doodle, or
                 brainstorm ideas freely! Customize brushes and colors for a personal touch.</div>
             <div class="box-btn-div">
-                <button class="box-btn"><a href="drawing-board.html">Vision Board</a></button>
+                <button class="box-btn" onclick="visit2()">Vision Board</button>
             </div>
         </div>
 
@@ -64,7 +66,7 @@
             <div class="box-txt"> - Capture your thoughts effortlessly. Organize notes, create checklists, and stay on
                 top of your ideas! Sync across devices for easy access anywhere.</div>
             <div class="box-btn-div">
-                <button class="box-btn"><a href="Notes.html">Create notes</a></button>
+                <button class="box-btn" onclick="visit3()">Create notes</button>
             </div>
         </div>
 
@@ -75,7 +77,7 @@
             <div class="box-txt"> - Stay informed with real-time weather updates tailored to your location. Plan your
                 day with confidence! Get alerts for severe weather and save your favorite locations.</div>
             <div class="box-btn-div">
-                <button class="box-btn"><a href="weather.html">Weather-Updates</a> </button>
+                <button class="box-btn" onclick="visit4()">Weather-Updates</button>
             </div>
         </div>
         <div class="box-img3"></div>
@@ -87,7 +89,7 @@
             <div class="box-txt"> - Manage tasks with ease. Prioritize, schedule, and check off your daily goals to stay
                 productive! Set reminders and deadlines to keep you on track.</div>
             <div class="box-btn-div">
-                <button class="box-btn"><a href="todo.html">To-Do List</a></button>
+                <button class="box-btn" onclick="visit5()">To-Do List</button>
             </div>
         </div>
 
@@ -136,6 +138,21 @@
     <script>
         function visit1() {
             window.open("https://github.com/SAKATA-GINTOKI2003/sem5-miniproj", "_self");
+        }
+        function visit2() {
+            window.open("./drawing-board.html", "_self");
+        }
+        function visit3() {
+            window.open("./Notes.html", "_self");
+        }
+        function visit4() {
+            window.open("./weather.html", "_self");
+        }
+        function visit5() {
+            window.open("./todo.html", "_self");
+        }
+        function visit6() {
+            window.open("./Subscription.html", "_self");
         }
     </script>
 </body>
