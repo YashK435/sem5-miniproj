@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff2d2;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+.hcontainer{
+    min-height: 100vh;
+    min-width: 100vw;
+    
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+} 
+
+.headerPage {
+height: 100vh;
+
+}
+
+.heading-container{
+    display: flex;
+    width:65vw;
+}
+h1 {
+    margin: 20px;
+    font-size: 34px;
+    color: #264e99;
+}
+.navbar-btn{
+    height:6vh;
+    width :8vw;
+    border-radius: 15px;
+    color: #f2f2f2;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: none;
+    cursor: pointer;
+    background: #efbf38;
+}
+.navbar-btn:hover{
+    background-color: #d6a316;
+}
+.nav{
+    width: 100%;
+    height:12vh;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.hbtn-div{
+    width: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+}
+.hbtn{
+    padding-left: 10vw;
+}
+/* .headerPage {
+    height:700px;
+    background-color: rgb(21, 178, 13);
+    width:100vw;
+} */
+.h2{
+    color: rgb(255, 255, 255);
+}
+.box {
+    background-color: #9535f0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.9s ease;
+}
+.btxt{
+    width:30%;
+}
+.box-htxt{
+    padding-bottom: 5vh;
+    font-size: 4vh;
+}
+.box-btn-div{
+    padding-top:50px ;
+    padding-left: 1vw;
+
+    
+
+}
+.box-btn{
+    height:6vh;
+    width :10vw;
+    border-radius: 15px;
+    color: #f2f2f2;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    background: none;
+    cursor: pointer;
+    background: #efbf38;
+
+}
+.box-btn:hover{
+    color: #f2f2f2;
+    background: #d6a316;
+
+  }
+
+.box-img1{
+    background-color: red;
+    height: 400px;
+    width:40%;
+    border-radius: 10px;
+
+    background-image: url('./homeImg/home-drawingboard.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+.box-img2{
+    background-color: red;
+    height: 400px;
+    width:40%;
+    border-radius: 10px;
+
+    background-image: url('./homeImg/home-notes.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+.box-img3{
+    background-color: red;
+    height: 400px;
+    width:40%;
+    border-radius: 10px;
+
+    background-image: url('./homeImg/home-weather.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+.box-img4{
+    background-color: red;
+    height: 400px;
+    width:40%;
+    border-radius: 10px;
+
+    background-image: url('./homeImg/home-todo.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
+.box h2 {
+    font-size: 45px;
+}
+.commingsoon
+{
+    background-color: #9535f0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.9s ease;
+}
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height:200px;
+
+    background-color: rgb(37, 37, 37);
+    width:100vw;
+}
+.footer1{
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(168, 168, 168);
+}
+
