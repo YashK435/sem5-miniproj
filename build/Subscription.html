@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscription Pricing</title>
+  <link rel="stylesheet" href="css/Subscription.css">
+  <title>ProDash-Subscription</title>
+  <style>
+    body {
+      background-image: url("img/Subscription-bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <header>
+        <div class="heading-container">
+            <img src="./img/prodash-logo.png" width="80vw" height="80vh" />
+            <h1>Prodash</h1>
+        </div>
+        <div class="hbtn-div">
+            <button class="navbar-btn" >User</button>
+            
+        </div>
+    </header>
+  </div>
+  <div class="subscription-container">
+    <h2>Unlock Your Growth Potential Today!</h2>
+    <p class="p_intro">Choose the perfect plan that suits your needs. Whether you're just starting or ready to accelerate your business, we provide the tools and insights you need to make smarter connections.</p>
+    
+    <div class="toggle-buttons">
+      <button class="toggle-btn active" id="monthlyBtn">Monthly</button>
+      <button class="toggle-btn" id="annualBtn">Annual</button>
+    </div>
+
+    <div class="plans-container">
+      <div class="plan">
+        <div class="plan_header">
+
+          <h3>Free Tier</h3>
+          <p class="price" id="price1">Free</p>
+          <p>1 User</p>
+        </div>
+        <div class="plan_details">
+
+          <ul>
+            <li>Drawing Board</li>
+            <li>To-List</li>
+            <li>Notes-App</li>
+            <li>Weather-Updates</li>
+          </ul>
+        </div>
+        <button class="plan-btn" onclick="visit1()">Get</button>
+      </div>
+
+      <div class="plan">
+        <div class="plan_header">
+          
+          <h3>Premium Tier</h3>
+          <p class="price" id="price2">₹ 99</p>
+          <p>1 users</p>
+        </div>
+        <div class="plan_details">
+
+          <ul>
+            <li>Downloadable Content</li>
+            <li>Calorie Intake Traker</li>
+            <li>Finance Tracker</li>
+            <li>Goal Tracker</li>
+          </ul>
+        </div>
+        <button class="plan-btn" onclick="visit1()">Updgrade</button>
+      </div>
+
+      <div class="plan">
+        <div class="plan_header">
+          
+          <h3>Legendary Tier</h3>
+          <p class="price" id="price3">₹ 199</p>
+          <p>Online Mode</p>
+        </div>
+        <p>Comming Soon..</p>
+        <div class="plan_details">
+
+          <ul>
+            <li>Multiple user at Same Time</li>
+            <li>Live Notification Sysytem</li>
+            <li>Integrated Calender</li>
+            <li>And much More</li>
+          </ul>
+        </div>
+        <button class="plan-btn" onclick="visit1()">Register Now !!</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/Subscribtion.js"></script>
+  <script>
+    function visit1() {
+        window.open("./home.html", "_self");
+    }
+</script>
+</body>
+</html>
